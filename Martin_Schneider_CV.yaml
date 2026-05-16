@@ -1,0 +1,283 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+cv:
+  name: Martin Schneider
+  headline:
+  location:
+  email: martin.schneider250701@gmail.com
+  photo:
+  phone: "+5554999381614"
+  website:
+  social_networks:
+    - network: LinkedIn
+      username: martin-schneider-2b8aba213
+    - network: GitHub
+      username: mart1nsch
+  custom_connections:
+  sections:
+    experience:
+      - company: Kunden Systems
+        position: Senior PL/SQL Analyst and AI Tech Lead
+        date:
+        start_date: 2024-10
+        end_date: present
+        location: Dois Irmãos, Brazil
+        summary:
+        highlights:
+          - Organized team workflows and processes, providing technical guidance and analyzing system changes to improve delivery quality and efficiency, reduce rework, and ensure reliable solutions.
+          - Led the development of the company’s AI assistant aimed at supporting consultants and technical support teams in resolving tickets more efficiently, reducing response and resolution time for clients.
+      - company: Kunden Systems
+        position: Full-Stack Developer
+        date:
+        start_date: 2021-03
+        end_date: 2024-09
+        location: Dois Irmãos, Brazil
+        summary:
+        highlights:
+          - Refactored the entire inventory management module of the ERP system, ensuring security and reliability in transactions and reducing inventory-related support tickets by more than 50%.
+          - Developed new system features focused on improving efficiency and traceability for clients.
+          - Performed bug fixes and continuous system enhancements to maintain stability and performance.
+      - company: Kunden Systems
+        position: Consultant
+        date:
+        start_date: 2019-01
+        end_date: 2021-02
+        location: Dois Irmãos, Brazil
+        summary:
+        highlights:
+          - Provided technical support to clients regarding the ERP system, ensuring effective issue resolution and user assistance.
+          - Organized, analyzed, and gathered requirements for development projects, creating new features and solutions within the system.
+          - Conducted client process analysis to identify opportunities for improving efficiency and productivity through ERP optimization.
+    education:
+      - institution: Universidade de São Paulo (USP)
+        area: Artificial Intelligence and Big Data
+        degree: MBA
+        date:
+        start_date: 2026-07
+        end_date: 2027-10
+        location: São Paulo, Brazil
+        summary:
+        highlights:
+          - "Key Concepts: ML, Deep Learning, NLP, Neural Networks, LLMs, Big Data, Cloud."
+      - institution: Unisinos
+        area: Systems Analysis and Development
+        degree: BS
+        date:
+        start_date: 2023-05
+        end_date: 2026-06
+        location: São Leopoldo, Brazil
+        summary:
+        highlights:
+          - "Key Concepts: Algorithms, Data Structures, Architecture, Project Planning."
+    projects:
+      - name: ChatKND
+        date:
+        start_date: 2025-11
+        end_date: present
+        location:
+        summary: Kunden Systems’s AI assistant.
+        highlights:
+          - Faster problem-solving and reduced ticket resolution time.
+          - Increased employees’ overall knowledge of the system.
+      - name: '[Documentation Assistant](https://github.com/mart1nsch/documentation-assistant)'
+        date:
+        start_date: '2026-04'
+        end_date:
+        location:
+        summary: Tool that creates technical documentation for Python files using AI.
+        highlights:
+          - Focused on improving project quality through standardized, high-level documentation.
+    skills:
+      - label: Languages
+        details: Python, PL/SQL, Java, JavaScript, C, SQL
+      - label: Frameworks
+        details: Oracle Forms, Oracle Apex, FastAPI, PyTorch, scikit-learn, OpenCV, Spring
+      - label: Infrastructure
+        details: Docker, Git, Ollama
+      - label: Databases
+        details: Oracle, SQLite, MySQL, Qdrant, ChromaDB
+design:
+  theme: classic
+  # page:
+  #   size: us-letter
+  #   top_margin: 0.7in
+  #   bottom_margin: 0.7in
+  #   left_margin: 0.7in
+  #   right_margin: 0.7in
+  #   show_footer: true
+  #   show_top_note: true
+  colors:
+  #   body: rgb(0, 0, 0)
+    name: rgb(0, 49, 84)
+    headline: rgb(0, 49, 84)
+    connections: rgb(0, 49, 84)
+    section_titles: rgb(0, 49, 84)
+    links: rgb(0, 49, 84)
+  #   footer: rgb(128, 128, 128)
+  #   top_note: rgb(128, 128, 128)
+  # typography:
+  #   line_spacing: 0.6em
+  #   alignment: justified
+  #   date_and_location_column_alignment: right
+  #   font_family:
+  #     body: Source Sans 3
+  #     name: Source Sans 3
+  #     headline: Source Sans 3
+  #     connections: Source Sans 3
+  #     section_titles: Source Sans 3
+  #   font_size:
+  #     body: 10pt
+  #     name: 30pt
+  #     headline: 10pt
+  #     connections: 10pt
+  #     section_titles: 1.4em
+  #   small_caps:
+  #     name: false
+  #     headline: false
+  #     connections: false
+  #     section_titles: false
+  #   bold:
+  #     name: true
+  #     headline: false
+  #     connections: false
+  #     section_titles: true
+  # links:
+  #   underline: false
+  #   show_external_link_icon: false
+  # header:
+  #   alignment: center
+  #   photo_width: 3.5cm
+  #   photo_position: left
+  #   photo_space_left: 0.4cm
+  #   photo_space_right: 0.4cm
+  #   space_below_name: 0.7cm
+  #   space_below_headline: 0.7cm
+  #   space_below_connections: 0.7cm
+  #   connections:
+  #     phone_number_format: national
+  #     hyperlink: true
+  #     show_icons: true
+  #     display_urls_instead_of_usernames: false
+  #     separator: ''
+  #     space_between_connections: 0.5cm
+  # section_titles:
+  #   type: with_partial_line
+  #   line_thickness: 0.5pt
+  #   space_above: 0.5cm
+  #   space_below: 0.3cm
+  # sections:
+  #   allow_page_break: true
+  #   space_between_regular_entries: 1.2em
+  #   space_between_text_based_entries: 0.3em
+  #   show_time_spans_in:
+  #     - experience
+  # entries:
+  #   date_and_location_width: 4.15cm
+  #   side_space: 0.2cm
+  #   space_between_columns: 0.1cm
+  #   allow_page_break: false
+  #   short_second_row: true
+  #   degree_width: 1cm
+  #   summary:
+  #     space_above: 0cm
+  #     space_left: 0cm
+  #   highlights:
+  #     bullet: •
+  #     nested_bullet: •
+  #     space_left: 0.15cm
+  #     space_above: 0cm
+  #     space_between_items: 0cm
+  #     space_between_bullet_and_text: 0.5em
+  # templates:
+  #   footer: '*NAME -- PAGE_NUMBER/TOTAL_PAGES*'
+  #   top_note: '*LAST_UPDATED CURRENT_DATE*'
+  #   single_date: MONTH_ABBREVIATION YEAR
+  #   date_range: START_DATE – END_DATE
+  #   time_span: HOW_MANY_YEARS YEARS HOW_MANY_MONTHS MONTHS
+  #   one_line_entry:
+  #     main_column: '**LABEL:** DETAILS'
+  #   education_entry:
+  #     main_column: |-
+  #       **INSTITUTION**, AREA
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     degree_column: '**DEGREE**'
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   normal_entry:
+  #     main_column: |-
+  #       **NAME**
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   experience_entry:
+  #     main_column: |-
+  #       **COMPANY**, POSITION
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   publication_entry:
+  #     main_column: |-
+  #       **TITLE**
+  #       SUMMARY
+  #       AUTHORS
+  #       URL (JOURNAL)
+  #     date_and_location_column: DATE
+locale:
+  language: english
+  # last_updated: Last updated in
+  # month: month
+  # months: months
+  # year: year
+  # years: years
+  # present: present
+  # phrases:
+  #   degree_with_area: DEGREE in AREA
+  # month_abbreviations:
+  #   - Jan
+  #   - Feb
+  #   - Mar
+  #   - Apr
+  #   - May
+  #   - June
+  #   - July
+  #   - Aug
+  #   - Sept
+  #   - Oct
+  #   - Nov
+  #   - Dec
+  # month_names:
+  #   - January
+  #   - February
+  #   - March
+  #   - April
+  #   - May
+  #   - June
+  #   - July
+  #   - August
+  #   - September
+  #   - October
+  #   - November
+  #   - December
+settings:
+  current_date: today
+  render_command:
+    output_folder: rendercv_output
+    design:
+    locale:
+    typst_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.md
+    html_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.html
+    png_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.png
+    dont_generate_markdown: false
+    dont_generate_html: false
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: false
+  bold_keywords: []
+  pdf_title: NAME - CV
