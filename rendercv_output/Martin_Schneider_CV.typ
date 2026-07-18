@@ -222,7 +222,7 @@
 
 #regular-entry(
   [
-    #strong[Want-Want]
+    #strong[#link("https://github.com/mart1nsch/want-want")[Want-Want]]
 
     #summary[Free web application for language learning, fully AI-powered. Features a tutoring chatbot with conversation history, text translation and generation tools, and a timed vocabulary game. A daily streak system follows the Quero-Quero (the state bird of Rio Grande do Sul) to real tourist destinations, combining language learning with regional tourism.]
 
