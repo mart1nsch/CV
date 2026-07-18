@@ -7,7 +7,7 @@
 
 
 # Experience
-## **Kunden Systems**, Senior PL/SQL Analyst and AI Tech Lead
+## **Kunden Systems**, Senior PL/SQL Analyst & AI Tech Lead
 
 Dois Irmãos, Brazil
 
@@ -15,11 +15,11 @@ Oct 2024 – present
 
 
 
-1 year 8 months
+1 year 10 months
 
-- Organized team workflows and processes, providing technical guidance and analyzing system changes to improve delivery quality and efficiency, reduce rework, and ensure reliable solutions.
+- Organized team workflows and processes, providing technical guidance and analyzing system changes to improve delivery quality, reduce rework, and ensure reliable solutions.
 
-- Led the development of the company’s AI assistant aimed at supporting consultants and technical support teams in resolving tickets more efficiently, reducing response and resolution time for clients.
+- Led the development of the company’s AI assistant (RAG-based) used daily by a team of 10 consultants and support analysts, reducing ticket resolution time by ~30%.
 
 
 
@@ -27,17 +27,17 @@ Oct 2024 – present
 
 Dois Irmãos, Brazil
 
-Mar 2021 – Sept 2024
+Mar 2021 – Sep 2024
 
 
 
 3 years 7 months
 
-- Refactored the entire inventory management module of the ERP system, ensuring security and reliability in transactions and reducing inventory-related support tickets by more than 50%.
+- Refactored the inventory management module of the ERP system, ensuring security and reliability in transactions, reducing inventory-related support tickets by more than 50%.
 
-- Developed new system features focused on improving efficiency and traceability for clients.
+- Developed new system features focused on efficiency and traceability for clients.
 
-- Performed bug fixes and continuous system enhancements to maintain stability and performance.
+- Performed bug fixes and system enhancements to maintain stability and performance.
 
 
 
@@ -55,8 +55,6 @@ Jan 2019 – Feb 2021
 
 - Organized, analyzed, and gathered requirements for development projects, creating new features and solutions within the system.
 
-- Conducted client process analysis to identify opportunities for improving efficiency and productivity through ERP optimization.
-
 
 
 # Education
@@ -68,54 +66,60 @@ Jan 2019 – Feb 2021
 São Paulo, Brazil
 
 
-July 2026 – Oct 2027
+Jul 2026 – Oct 2027
 
-- Key Concepts: ML, Deep Learning, NLP, Neural Networks, LLMs, Big Data, Cloud.
+- Key Concepts: ML, Deep Learning, NLP, Neural Networks, LLMs, Big Data, Cloud, Python.
 
 
 
 ## **Unisinos**, Systems Analysis and Development
 
-**BS**
+**B.S.**
 
 
 São Leopoldo, Brazil
 
 
-May 2023 – June 2026
+May 2023 – Jun 2026
 
-- Key Concepts: Algorithms, Data Structures, Architecture, Project Planning.
+- Key Concepts: Algorithms, Data Structures, Architecture, Project Planning, Java.
 
 
 
 # Projects
-## **ChatKND**
+## **Kunden AI**
 
 Nov 2025 – present
 
-Kunden Systems’s AI assistant.
+Led the development of an AI chatbot using RAG (Retrieval-Augmented Generation) integrated with ERP system documentation, customer support logs, and other internal data sources. Includes a feedback loop that allows qualified users to validate responses and enrich the knowledge base through direct interactions.
 
-- Faster problem-solving and reduced ticket resolution time.
+- Tech stack: ChromaDB (vector database) · all-MiniLM-L6-v2 (embeddings) · mmarco-mMiniLMv2-L12-H384-v1 (reranker) · Gemma4 (31B, deployed via Ollama Cloud)
 
-- Increased employees’ overall knowledge of the system.
+- Used by 10 consultants and support analysts, reducing ticket resolution time by ~30%.
 
 
 
-## **[Documentation Assistant](https://github.com/mart1nsch/documentation-assistant)**
+## **Want-Want**
 
-Apr 2026 – present
+Jun 2026 – present
 
-Tool that creates technical documentation for Python files using AI.
+Free web application for language learning, fully AI-powered. Features a tutoring chatbot with conversation history, text translation and generation tools, and a timed vocabulary game. A daily streak system follows the Quero-Quero (the state bird of Rio Grande do Sul) to real tourist destinations, combining language learning with regional tourism.
 
-- Focused on improving project quality through standardized, high-level documentation.
+- Tech stack: Gemma4 (31B, deployed via Ollama Cloud) · Python · JavaScript · HTML · CSS
 
 
 
 # Skills
-**Languages:** Python, PL/SQL, Java, JavaScript, C, SQL
+**Programming:** Python, PL/SQL, Java, JavaScript, C, SQL
 
-**Frameworks:** Oracle Forms, Oracle Apex, FastAPI, PyTorch, scikit-learn, OpenCV, Spring
+**Frameworks:** Oracle Forms, Oracle Apex, FastAPI, OpenCV
 
 **Infrastructure:** Docker, Git, Ollama
 
-**Databases:** Oracle, SQLite, MySQL, Qdrant, ChromaDB
+**Databases:** Oracle, SQLite, MySQL, ChromaDB
+
+# Languages
+Portuguese (native) · English (full professional) · Spanish (limited) · German (elementary)
+
+# Awards
+Employee of the Year 2023 — Kunden Systems

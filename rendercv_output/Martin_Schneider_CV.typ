@@ -6,25 +6,25 @@
   name: "Martin Schneider",
   title: "Martin Schneider - CV",
   footer: context { [#emph[Martin Schneider -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in May 2026] ],
+  top-note: [ #emph[Last updated in Jul 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "us-letter",
-  page-top-margin: 0.7in,
-  page-bottom-margin: 0.7in,
-  page-left-margin: 0.7in,
-  page-right-margin: 0.7in,
+  page-top-margin: 0.5in,
+  page-bottom-margin: 0.5in,
+  page-left-margin: 0.6in,
+  page-right-margin: 0.6in,
   page-show-footer: true,
   page-show-top-note: true,
   colors-body: rgb(0, 0, 0),
-  colors-name: rgb(0, 49, 84),
-  colors-headline: rgb(0, 49, 84),
-  colors-connections: rgb(0, 49, 84),
-  colors-section-titles: rgb(0, 49, 84),
-  colors-links: rgb(0, 49, 84),
+  colors-name: rgb(0, 79, 144),
+  colors-headline: rgb(0, 79, 144),
+  colors-connections: rgb(0, 79, 144),
+  colors-section-titles: rgb(0, 79, 144),
+  colors-links: rgb(0, 79, 144),
   colors-footer: rgb(128, 128, 128),
   colors-top-note: rgb(128, 128, 128),
-  typography-line-spacing: 0.6em,
+  typography-line-spacing: 0.55em,
   typography-alignment: "justified",
   typography-date-and-location-column-alignment: right,
   typography-font-family-body: "Source Sans 3",
@@ -32,7 +32,7 @@
   typography-font-family-headline: "Source Sans 3",
   typography-font-family-connections: "Source Sans 3",
   typography-font-family-section-titles: "Source Sans 3",
-  typography-font-size-body: 10pt,
+  typography-font-size-body: 9.5pt,
   typography-font-size-name: 30pt,
   typography-font-size-headline: 10pt,
   typography-font-size-connections: 10pt,
@@ -49,9 +49,9 @@
   links-show-external-link-icon: false,
   header-alignment: center,
   header-photo-width: 3.5cm,
-  header-space-below-name: 0.7cm,
+  header-space-below-name: 0.3cm,
   header-space-below-headline: 0.7cm,
-  header-space-below-connections: 0.7cm,
+  header-space-below-connections: 0.3cm,
   header-connections-hyperlink: true,
   header-connections-show-icons: true,
   header-connections-display-urls-instead-of-usernames: false,
@@ -59,11 +59,11 @@
   header-connections-space-between-connections: 0.5cm,
   section-titles-type: "with_partial_line",
   section-titles-line-thickness: 0.5pt,
-  section-titles-space-above: 0.5cm,
+  section-titles-space-above: 0.55cm,
   section-titles-space-below: 0.3cm,
   sections-allow-page-break: true,
   sections-space-between-text-based-entries: 0.3em,
-  sections-space-between-regular-entries: 1.2em,
+  sections-space-between-regular-entries: 0.8em,
   entries-date-and-location-width: 4.15cm,
   entries-side-space: 0.2cm,
   entries-space-between-columns: 0.1cm,
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
     year: 2026,
-    month: 5,
-    day: 16,
+    month: 7,
+    day: 18,
   ),
 )
 
@@ -100,11 +100,11 @@
 
 #regular-entry(
   [
-    #strong[Kunden Systems], Senior PL\/SQL Analyst and AI Tech Lead
+    #strong[Kunden Systems], Senior PL\/SQL Analyst & AI Tech Lead
 
-    - Organized team workflows and processes, providing technical guidance and analyzing system changes to improve delivery quality and efficiency, reduce rework, and ensure reliable solutions.
+    - Organized team workflows and processes, providing technical guidance and analyzing system changes to improve delivery quality, reduce rework, and ensure reliable solutions.
 
-    - Led the development of the company’s AI assistant aimed at supporting consultants and technical support teams in resolving tickets more efficiently, reducing response and resolution time for clients.
+    - Led the development of the company’s AI assistant (RAG-based) used daily by a team of 10 consultants and support analysts, reducing ticket resolution time by \~30\%.
 
   ],
   [
@@ -114,7 +114,7 @@
 
     
 
-    1 year 8 months
+    1 year 10 months
 
   ],
 )
@@ -123,17 +123,17 @@
   [
     #strong[Kunden Systems], Full-Stack Developer
 
-    - Refactored the entire inventory management module of the ERP system, ensuring security and reliability in transactions and reducing inventory-related support tickets by more than 50\%.
+    - Refactored the inventory management module of the ERP system, ensuring security and reliability in transactions, reducing inventory-related support tickets by more than 50\%.
 
-    - Developed new system features focused on improving efficiency and traceability for clients.
+    - Developed new system features focused on efficiency and traceability for clients.
 
-    - Performed bug fixes and continuous system enhancements to maintain stability and performance.
+    - Performed bug fixes and system enhancements to maintain stability and performance.
 
   ],
   [
     Dois Irmãos, Brazil
 
-    Mar 2021 – Sept 2024
+    Mar 2021 – Sep 2024
 
     
 
@@ -149,8 +149,6 @@
     - Provided technical support to clients regarding the ERP system, ensuring effective issue resolution and user assistance.
 
     - Organized, analyzed, and gathered requirements for development projects, creating new features and solutions within the system.
-
-    - Conducted client process analysis to identify opportunities for improving efficiency and productivity through ERP optimization.
 
   ],
   [
@@ -171,13 +169,13 @@
   [
     #strong[Universidade de São Paulo (USP)], Artificial Intelligence and Big Data
 
-    - Key Concepts: ML, Deep Learning, NLP, Neural Networks, LLMs, Big Data, Cloud.
+    - Key Concepts: ML, Deep Learning, NLP, Neural Networks, LLMs, Big Data, Cloud, Python.
 
   ],
   [
     São Paulo, Brazil
 
-    July 2026 – Oct 2027
+    Jul 2026 – Oct 2027
 
   ],
   degree-column: [
@@ -189,17 +187,17 @@
   [
     #strong[Unisinos], Systems Analysis and Development
 
-    - Key Concepts: Algorithms, Data Structures, Architecture, Project Planning.
+    - Key Concepts: Algorithms, Data Structures, Architecture, Project Planning, Java.
 
   ],
   [
     São Leopoldo, Brazil
 
-    May 2023 – June 2026
+    May 2023 – Jun 2026
 
   ],
   degree-column: [
-    #strong[BS]
+    #strong[B.S.]
   ],
 )
 
@@ -207,13 +205,13 @@
 
 #regular-entry(
   [
-    #strong[ChatKND]
+    #strong[Kunden AI]
 
-    #summary[Kunden Systems’s AI assistant.]
+    #summary[Led the development of an AI chatbot using RAG (Retrieval-Augmented Generation) integrated with ERP system documentation, customer support logs, and other internal data sources. Includes a feedback loop that allows qualified users to validate responses and enrich the knowledge base through direct interactions.]
 
-    - Faster problem-solving and reduced ticket resolution time.
+    - Tech stack: ChromaDB (vector database) · all-MiniLM-L6-v2 (embeddings) · mmarco-mMiniLMv2-L12-H384-v1 (reranker) · Gemma4 (31B, deployed via Ollama Cloud)
 
-    - Increased employees’ overall knowledge of the system.
+    - Used by 10 consultants and support analysts, reducing ticket resolution time by \~30\%.
 
   ],
   [
@@ -224,25 +222,33 @@
 
 #regular-entry(
   [
-    #strong[#link("https://github.com/mart1nsch/documentation-assistant")[Documentation Assistant]]
+    #strong[Want-Want]
 
-    #summary[Tool that creates technical documentation for Python files using AI.]
+    #summary[Free web application for language learning, fully AI-powered. Features a tutoring chatbot with conversation history, text translation and generation tools, and a timed vocabulary game. A daily streak system follows the Quero-Quero (the state bird of Rio Grande do Sul) to real tourist destinations, combining language learning with regional tourism.]
 
-    - Focused on improving project quality through standardized, high-level documentation.
+    - Tech stack: Gemma4 (31B, deployed via Ollama Cloud) · Python · JavaScript · HTML · CSS
 
   ],
   [
-    Apr 2026 – present
+    Jun 2026 – present
 
   ],
 )
 
 == Skills
 
-#strong[Languages:] Python, PL\/SQL, Java, JavaScript, C, SQL
+#strong[Programming:] Python, PL\/SQL, Java, JavaScript, C, SQL
 
-#strong[Frameworks:] Oracle Forms, Oracle Apex, FastAPI, PyTorch, scikit-learn, OpenCV, Spring
+#strong[Frameworks:] Oracle Forms, Oracle Apex, FastAPI, OpenCV
 
 #strong[Infrastructure:] Docker, Git, Ollama
 
-#strong[Databases:] Oracle, SQLite, MySQL, Qdrant, ChromaDB
+#strong[Databases:] Oracle, SQLite, MySQL, ChromaDB
+
+== Languages
+
+Portuguese (native) · English (full professional) · Spanish (limited) · German (elementary)
+
+== Awards
+
+Employee of the Year 2023 — Kunden Systems
